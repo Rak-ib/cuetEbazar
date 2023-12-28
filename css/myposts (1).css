@@ -1,0 +1,125 @@
+.header{
+    color:rgb(251, 165, 4);
+    font-weight: 1000;
+     background-color: rgba(233, 225, 225, 0.916); 
+
+}
+a{
+    text-decoration: none;
+   
+}
+a:hover{
+    text-decoration: none;
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+#menu{
+    margin: 0;
+    padding: 0;
+}
+#menu  li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+#menu li a{
+    color: rgb(0, 0, 0);
+    padding:15px 10px;
+    display:block ;
+    font-weight: 700;
+
+}
+#menu li a:hover{
+    color:white;
+    transition: 0.5s;
+    background-color:  rgb(88, 81, 81);
+    border:none;
+    border-radius: 30px;
+}
+
+
+
+
+/* products */
+
+/* collections */
+.title h2::before{
+    position: relative;
+    content:"";
+    width: 4px;
+    height:50px;
+    background-color: rgb(234, 77, 77);
+    left:-20px;
+    top:50%;
+    transform:translateY(-50%);
+  
+  }
+  
+  .btn:hover{
+    transition: 0.5s;
+    background-color: rgb(48, 44, 44);
+    color:white;
+  }
+  
+  .active-filter-btn{
+    background-color:rgb(48, 44, 44) ;
+    color:#fff;
+    border-color:black;
+  }
+  
+  .collection-img span{
+    top:60px;
+    right:60px;
+    width:46px;
+    border-radius: 50%;
+    color:white;
+    font-size:xx-large;
+    font-weight: 800;
+  
+  }
+  .collection-img .add{
+    opacity: 0;
+    color:white;
+    font-weight:600;
+    background:rgb(26, 24, 24);
+    height:63px;
+    width:306px;
+    top:370px;
+    /* bottom:-63px; */
+    transition:0.4s;
+    text-align: center;
+    align-items: center;
+  
+  }
+  .collection-img{
+    transition: 0.4s;
+  }
+  
+  .collection-img:hover{
+    height:355px;
+    width:330px;
+    padding:3%;
+    cursor:pointer;
+    transition: 0.4s;
+  }
+  
+  .collection-img .add:hover{
+    opacity:0.8;
+    top:330px;
+    cursor: pointer;
+    
+  }
+  
+  .collection-imgg{
+    transition:0.4s;
+  }
+  .collection-imgg:hover{
+    cursor:pointer;
+    padding:1%;
+  }
+  .col-md-3{
+    
+  }

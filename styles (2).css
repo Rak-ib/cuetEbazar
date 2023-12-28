@@ -1,0 +1,123 @@
+.header{
+    color:rgb(251, 165, 4);
+    font-weight: 1000;
+    /* background-color: rgba(149, 149, 149,0.5); */
+
+}
+a{
+    text-decoration: none;
+   
+}
+a:hover{
+    text-decoration: none;
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+#menu{
+    margin: 0;
+    padding: 0;
+}
+#menu  li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+#menu li a{
+    color: rgb(0, 0, 0);
+    padding:15px 10px;
+    display:block ;
+    font-weight: 700;
+
+}
+#menu li a:hover{
+    color:white;
+    transition: 0.5s;
+    background-color: rgb(88, 81, 81);
+    border:none;
+    border-radius: 30px;
+}
+
+.srcc{
+    background-color: rgba(255, 255, 255, 1);
+}
+.search-bar{
+    align-items: center;
+}
+
+
+
+
+#banner{
+    background: url('../images/bgff.jpeg') no-repeat 0 0;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.search-box{
+    margin-top:50px;
+}
+
+.banner-title h1{
+    background: rgba(255,255,255,0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+
+.banner-title p.lead{
+    color: white;
+    background: rgba(231,76,60,0.7);
+    padding: 10px;
+}
+.banner-title{
+    padding-top: 120px;
+}
+
+
+
+
+.service-box{
+    text-align: center;
+}
+
+.service-box i.fa{
+    color:#e74c3c;
+    font-size: 70px;
+}
+.service-box i.fa-brands{
+    color:#e74c3c;
+    font-size: 70px;
+}
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section h2.section-head{
+    color:black;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section h2.section-head:after{
+    background: #e74c3c;
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100px;
+    margin: 20px auto;
+}
+
+.ent{
+    height: 70px;
+    width: 40x;
+    border: none;
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none;
+}

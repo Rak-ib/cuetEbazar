@@ -1,0 +1,10 @@
+.pro-img{
+    box-shadow: 10px 5px 5px gray;
+    transition: 0.9s;
+    cursor:pointer;
+}
+.pro-img:hover{
+    /* height: 330px; */
+    width: 299px;
+
+}
